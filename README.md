@@ -1,1 +1,6 @@
 # Candy-Crush
+How to play the game?
+First you run the code. Then a screen appears of a candy crush background. On it, a grid of defined rows and columns is being shown. Randomly candies are present in its cells. Then you select a candy with mouse. It becomes highlighted. Now you click left button of mouse on the candy with which you want to swap.
+If it is a possible move, it swaps and bursting of candy happens. Above candies take the place of busted candies below them. Bursting continues till all bursting conditions become false. For any three candies combination, score increments to 1. Moves are decremented to 1. Timer is reset to 30 and remains 30 during bursting. When it stops, it starts decrementing.
+If 4 same candies combination becomes. Then score is incremented to 5. If 4 same candies combination becomes. Then score is incremented to 10. But if you want a hint. Just click on the button of "HINT", you’ll get a hint. If you want to save game, just click on "SAVE GAME" and your game is saved. If you want to load game, just click on "LOAD GAME" and your game starts from where you just start saved. When moves become 0, game automatically closes.
+If timer goes to 0, then your score is decreased to 5 and your move is decremented to 1. Timer is set to 30 again. Code is very generic. For any number of rows and columns, it makes grid of cells.
